@@ -1,0 +1,166 @@
+/* Général */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apparence */
+.hide {
+  display: none !important;
+}
+
+.nouvelle-hauteur {
+  height:100vh !important;
+}
+
+/* Liens */
+a {
+  color: #ffd700;
+}
+
+a:visited {
+  color: #ffd700;
+}
+
+a:hover {
+  color: #a09a9f;
+  text-decoration: none;
+}
+
+/* Boutons */
+.neutre {
+	padding:15px 32px;
+	font:bold 14px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:4px;
+	border:1px solid #ccc;
+	margin: 4px 2px;
+}
+
+.neutre:hover {
+  background: #666;
+  color: white;
+}
+
+.faux {
+  padding:15px 32px;
+  font:Bold 14px Arial;
+  background:#d34836;
+  color:#fff;
+  border-radius:4px;
+  border:none;
+  margin: 4px 2px;
+}
+.vrai {
+  padding:15px 32px;
+  font:bold 14px Arial;
+  background:#a1e01f;
+  color:#fff;
+  border-radius:4px;
+  border:none;
+  margin: 4px 2px;
+}
+
+.neutre2 {
+  padding:15px 32px;
+  font:bold 14px Arial;
+  background:#f5f5f5;
+  color:#555;
+  border-radius:20px;
+  border:1px solid #ccc;
+  margin: 4px 2px;
+}
+
+.neutre2:hover {
+  background: #666;
+  color: white;
+}
+
+
+/* Header */
+
+.header {
+  display: block;
+  z-index: 2;
+  width: 100vw;
+  height: 69px;
+  background: linear-gradient(to bottom right, #111, #555);
+}
+
+#header-gauche {
+  float: left;
+  margin-left: 3vw;
+}
+
+#header-droite {
+  float: right;
+  margin-right: 3vw;
+}
+
+.header-block {
+  position: relative;
+  height: 35px;
+  width: 150px;
+  margin-top: 17px;
+  text-align: center;
+  background: #fff;
+  border-radius:45px;
+}
+
+.header-block-text {
+  margin-top: 7px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+/* Page */
+
+.page {
+  width: 100%;
+  height: calc(100vh - 69px);
+  background-image: url("../images/fond.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.page-text {
+  position: relative;
+  margin: 0;
+  top: 25vh;
+  padding: 20px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.page-buttons {
+  padding-top: 30vh;
+}
+
+/* Bouton suivant */
+.page-suivant {
+  padding-top: 5vh;
+}
+
+/* Resultat */
+.resultat {
+  overflow-y: scroll;
+  background-color: white;
+  border-radius: 20px;
+  height: 50vh;
+  margin-top: 25vh;
+  width: 50vw;
+  margin-left: 25vw;
+}
+
+.text_resultat {
+  padding-top: calc(25vh - 95px);
+}
